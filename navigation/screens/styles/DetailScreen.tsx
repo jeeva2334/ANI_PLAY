@@ -1,0 +1,85 @@
+import React from "react";
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    container:{
+        flex:1,
+        marginTop:40,
+        padding:20
+    },
+    posterImage:{
+        height: 200,
+        width: 150,
+        borderRadius: 10,
+        marginTop:20
+    },
+    topSec:{
+        flexDirection:'row'
+    },
+    section:{
+        marginTop:20,
+        paddingLeft:20,
+        paddingTop:10
+    },
+    title:{
+        fontWeight:'bold',
+        fontSize:20,
+        color:'#3d3d3d'
+    },
+    marTop:{
+        flexDirection:'row', 
+        marginTop:5,
+        justifyContent:'flex-start', 
+        alignItems:'center'
+    },
+    subText:{
+        fontWeight:'600',
+        marginLeft:10,
+        color:'#3d3d3d'
+    },
+    para:{
+        width:180,
+        fontWeight:'600',
+        marginTop:7,
+        color:'#3d3d3d',
+        textAlign:'left',
+    },
+    epiSec:{
+        marginTop:30
+    },
+    menuTitle:{
+        marginLeft:10,
+        fontWeight:'bold',
+        fontSize:25,
+        marginTop:0,
+        color:'#3d3d3d'
+    },
+    list:{
+        marginTop:20,
+        marginBottom:30,
+    },
+    episodeCard:{
+        paddingHorizontal:20,
+        paddingVertical:13,
+        borderWidth:1,
+        margin:4,
+        borderColor:'#ccb3b4'
+    },
+    genresSec:{
+        marginTop:20
+    },
+    genreCard:{
+        paddingVertical:8,
+        paddingHorizontal:12,
+        marginLeft:10,
+        marginTop:10,
+        backgroundColor:'#646e63',
+        justifyContent:'center',
+        alignItems:'center',
+        borderRadius:10
+    },
+    genText:{
+        fontWeight:'600',
+        color:'#f6f6f6'
+    },
+})
